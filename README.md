@@ -40,7 +40,7 @@
 
 ## 快速开始
 
-执行脚本创建软链接并安装字体：
+首次使用时执行脚本创建软链接并安装字体：
 
 ```bash
 cd ~/.config/TWM
@@ -48,7 +48,7 @@ chmod +x init.sh
 ./init.sh
 ```
 
-脚本会链接：
+脚本会在目标目录已有文件时自动备份，然后创建链接：
 - `~/.config/niri` → `~/.config/TWM/niri`
 - `~/.config/sway` → `~/.config/TWM/sway`
 - `~/.config/waybar` → `~/.config/TWM/waybar`
